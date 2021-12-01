@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "bettersuperflat",
+  "version": "${version}",
+  "name": "BetterSuperFlat",
+  "description": "better superflat world for creative redstone",
+  "authors": [
+    "Pixeils"
+  ],
+  "contact": {
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.pixeils.bettersuperflat.Main"
+    ],
+    "client": [
+      "net.pixeils.bettersuperflat.Client"
+    ]
+  },
+  "mixins": [
+    "bettersuperflat.mixins.json"
+  ],
+  "accessWidener": "bettersuperflat.accesswidener",
+  "depends": {
+    "fabricloader": "*"
+  }
+}
