@@ -22,7 +22,7 @@
   "mixins": [
     "bettersuperflat.mixins.json"
   ],
-  "accessWidener": "bettersuperflat.accesswidener",
+  "accessWidenerPath": "bettersuperflat.accesswidener",
   "depends": {
     "fabricloader": "*"
   }
